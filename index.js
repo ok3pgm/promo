@@ -5,4 +5,4 @@ if (reg.test(text)){
 let check = $('.items_container input[type=checkbox]')[i]
 check.checked=true;
 }}
-document.querySelector('[name="sum"]').click(); 
+document.querySelector('[type="submit"]').click(); 
